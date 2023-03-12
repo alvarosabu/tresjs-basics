@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@tresjs/cientos": "^1.8.0",
     "@tresjs/core": "^1.8.1",
     "vue": "^3.2.45"
   },
