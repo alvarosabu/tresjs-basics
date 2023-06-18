@@ -1,8 +1,8 @@
-![repository-banner.png](https://res.cloudinary.com/alvarosaburido/image/upload/v1612193118/as-portfolio/Repo_Banner_kexozw.png)
+![repository-banner.png](/public/repo-banner.png)
 
 # TresJS Basics 
 
-> This repository contains the code for the TresJS youtube series on [@AlvaroDevLabs](https://www.youtube.com/AlvaroDevLabs).
+> This repository contains the code for the TresJS youtube series on [@AlvaroDevLabs](https://www.youtube.com/playlist?list=PLi-X1Ojrrmi_V15dXJf_XKdss0dlDzSwa).
 
 ## What is TresJS?
 
