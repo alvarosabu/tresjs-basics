@@ -5,11 +5,20 @@ import { OrbitControls } from '@tresjs/cientos'
 
 <template>
   <TresCanvas clear-color="#82DBC5">
-    <TresPerspectiveCamera />
+    <TresPerspectiveCamera
+      :position="[4, 4, 4]"
+      :look-at="[0, 1, 0]"
+    />
     <OrbitControls />
     <TresScene>
-      <TresMesh>
-        <TresBoxGeometry :args="[1, 1, 1]" />
+      <TresMesh
+        :position="[0, 1, 0]"
+        :scale="[2, 0.5, 1]"
+        :rotate-x="Math.PI / 4"
+      >
+        <TresBoxGeometry
+          :args="[1, 1, 1]"
+        />
         <TresMeshNormalMaterial />
       </TresMesh>
     </TresScene>
