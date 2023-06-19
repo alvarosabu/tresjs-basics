@@ -7,12 +7,10 @@ import { OrbitControls } from '@tresjs/cientos'
   <TresCanvas clear-color="#82DBC5">
     <TresPerspectiveCamera />
     <OrbitControls />
-    <TresScene>
-      <TresMesh>
-        <TresBoxGeometry :args="[1, 1, 1]" />
-        <TresMeshNormalMaterial />
-      </TresMesh>
-    </TresScene>
+    <TresMesh>
+      <TresBoxGeometry :args="[1, 1, 1]" />
+      <TresMeshNormalMaterial />
+    </TresMesh>
     <TresAxesHelper />
   </TresCanvas>
 </template>
