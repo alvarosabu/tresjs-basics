@@ -10,18 +10,16 @@ import { OrbitControls } from '@tresjs/cientos'
       :look-at="[0, 1, 0]"
     />
     <OrbitControls />
-    <TresScene>
-      <TresMesh
-        :position="[0, 1, 0]"
-        :scale="[2, 0.5, 1]"
-        :rotate-x="Math.PI / 4"
-      >
-        <TresBoxGeometry
-          :args="[1, 1, 1]"
-        />
-        <TresMeshNormalMaterial />
-      </TresMesh>
-    </TresScene>
+    <TresMesh
+      :position="[0, 1, 0]"
+      :scale="[2, 0.5, 1]"
+      :rotate-x="Math.PI / 4"
+    >
+      <TresBoxGeometry
+        :args="[1, 1, 1]"
+      />
+      <TresMeshNormalMaterial />
+    </TresMesh>
     <TresAxesHelper />
   </TresCanvas>
 </template>
