@@ -30,12 +30,10 @@ onLoop(({ delta, elapsed }) => {
   <TresCanvas clear-color="#82DBC5">
     <TresPerspectiveCamera />
     <OrbitControls />
-    <TresScene>
-      <TresMesh ref="cubeRef">
-        <TresBoxGeometry :args="[1, 1, 1]" />
-        <TresMeshNormalMaterial />
-      </TresMesh>
-    </TresScene>
+    <TresMesh ref="cubeRef">
+      <TresBoxGeometry :args="[1, 1, 1]" />
+      <TresMeshNormalMaterial />
+    </TresMesh>
     <TresAxesHelper />
   </TresCanvas>
 </template>
