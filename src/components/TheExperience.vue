@@ -3,14 +3,15 @@ import { SRGBColorSpace } from 'three'
 import { TresCanvas } from '@tresjs/core'
 import { OrbitControls } from '@tresjs/cientos'
 
-const positionsArray = new Float32Array([
+// Buffer Geometry
+/* const positionsArray = new Float32Array([
   0, 0, 0, // First Vertice
   0, 1, 0, // Second Vertice
   1, 0, 0, // Third Vertice
   1, 1, 0,
   1, 0, 0,
   1, 1, 0,
-])
+]) */
 </script>
 
 <template>
@@ -21,6 +22,10 @@ const positionsArray = new Float32Array([
     <TresPerspectiveCamera />
     <OrbitControls />
     <TresMesh>
+      <TresTorusKnotGeometry />
+      <TresMeshNormalMaterial />
+    </TresMesh>
+    <!-- <TresMesh>
       <TresBufferGeometry
         :position="[positionsArray, 3]"
       />
@@ -28,7 +33,7 @@ const positionsArray = new Float32Array([
         color="#ff0000"
         wireframe
       />
-    </TresMesh>
+    </TresMesh> -->
     <TresAxesHelper :args="[0.5]" />
   </TresCanvas>
 </template>
