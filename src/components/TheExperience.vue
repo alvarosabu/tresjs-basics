@@ -5,19 +5,37 @@ import { OrbitControls } from '@tresjs/cientos'
 </script>
 
 <template>
-  <TresCanvas clear-color="#2c3846" :output-color-space="SRGBColorSpace" alpha>
+  <TresCanvas
+    clear-color="white"
+    :output-color-space="SRGBColorSpace"
+    alpha
+  >
     <TresPerspectiveCamera />
     <OrbitControls />
-    <TresMesh>
+    <!-- <TresMesh>
       <TresTorusKnotGeometry :args="[1, 0.4, 32, 32]" />
-      <TresMeshPhysicalMaterial color="silver" :emissive-intensity="0.5" />
+      <TresMeshPhysicalMaterial
+        color="teal"
+        :roughness="0.2"
+      />
+    </TresMesh> -->
+    <TresMesh :position="[-4, 0, 0]">
+      <TresTorusGeometry :args="[1, 0.4, 32, 32]" />
+      <TresMeshPhongMaterial color="teal" wireframe />
+    </TresMesh>
+    <TresMesh :position="[0, 0, 0]">
+      <TresTorusGeometry :args="[1, 0.4, 32, 32]" />
+      <TresMeshNormalMaterial color="cyan" />
     </TresMesh>
     <TresMesh :position="[4, 0, 0]">
       <TresTorusGeometry :args="[1, 0.4, 32, 32]" />
       <TresMeshToonMaterial color="hotpink" />
     </TresMesh>
     <TresAmbientLight :args="[0xffffff, 1]" />
-    <TresDirectionalLight :args="[0xffffff, 0.5]" :position="[0, 4, 0]" />
+    <TresDirectionalLight
+      :args="[0xffffff, 0.5]"
+      :position="[0, 4, 4]"
+    />
   </TresCanvas>
 </template>
 
