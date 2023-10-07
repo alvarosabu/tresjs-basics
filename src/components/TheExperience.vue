@@ -21,6 +21,7 @@ import { OrbitControls } from '@tresjs/cientos'
       <TresMeshNormalMaterial />
     </TresMesh>
     <TresAxesHelper />
+    <TresDirectionalLight :position="[-1, 2, 4]" />
   </TresCanvas>
 </template>
 
