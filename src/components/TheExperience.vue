@@ -35,6 +35,7 @@ onLoop(({ delta, elapsed }) => {
       <TresMeshNormalMaterial />
     </TresMesh>
     <TresAxesHelper />
+    <TresDirectionalLight :position="[-1, 2, 4]" />
   </TresCanvas>
 </template>
 
