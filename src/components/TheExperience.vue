@@ -8,10 +8,11 @@ import { OrbitControls } from '@tresjs/cientos'
     <TresPerspectiveCamera />
     <OrbitControls />
     <TresMesh>
-      <TresBoxGeometry :args="[1, 1, 1]" />
-      <TresMeshNormalMaterial />
+      <TresTorusGeometry :args="[1, 0.4, 32, 32]" />
+      <TresMeshToonMaterial color="hotpink" />
     </TresMesh>
     <TresAxesHelper />
+    <TresDirectionalLight :position="[-1, 2, 4]" />
   </TresCanvas>
 </template>
 
