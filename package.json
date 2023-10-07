@@ -9,18 +9,18 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@tresjs/cientos": "^3.1.0",
-    "@tresjs/core": "^3.0.1",
+    "@tresjs/cientos": "^3.4.1",
+    "@tresjs/core": "^3.3.0",
     "vue": "^3.3.4"
   },
   "devDependencies": {
     "@alvarosabu/eslint-config-vue": "^0.4.0",
     "@tweakpane/plugin-essentials": "^0.2.0",
-    "@types/three": "^0.155.0",
-    "@vitejs/plugin-vue": "^4.3.1",
-    "three": "^0.155.0",
-    "typescript": "^5.1.6",
-    "vite": "^4.4.9",
-    "vue-tsc": "^1.8.8"
+    "@types/three": "^0.156.0",
+    "@vitejs/plugin-vue": "^4.4.0",
+    "three": "^0.157.0",
+    "typescript": "^5.2.2",
+    "vite": "^4.4.11",
+    "vue-tsc": "^1.8.16"
   }
 }
