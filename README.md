@@ -20,6 +20,7 @@ This repository contains the code for the TresJS youtube series on [@AlvaroDevLa
 | [![TresJS - Animate your 3D Objects with Vue](/public/TresJS%20-%20Animate%20your%203D%20Objects.png)](https://youtu.be/bDWdikyqfjk) | [`feat/animate-objects`](https://github.com/alvarosabu/tresjs-basics/tree/feat/animate-objects) |
 | [![TresJS - Geometries with Vue](/public/TresJS%20-%20%20Geometries.png)](https://youtu.be/95OpiYAqkfY) | [`feat/geometries`](https://github.com/alvarosabu/tresjs-basics/tree/feat/geometries) |
 | [![TresJS Materials](/public/TresJS%20-%20%20Materials.png)](https://youtu.be/25xcycMVMBc) | [`feat/materials`](https://github.com/alvarosabu/tresjs-basics/tree/feat/materials) |
+| [![TresJS Lights & Shadows](/public/TresJS%20-%20%20Materials.png)](https://youtu.be/25xcycMVMBc) | [`feat/lights-shadows`](https://github.com/alvarosabu/tresjs-basics/tree/feat/lights-shadows) |
 
 ## How to run the code?
 
