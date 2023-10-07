@@ -16,9 +16,10 @@ This repository contains the code for the TresJS youtube series on [@AlvaroDevLa
 
 | Video | Branch |
 | --- | --- |
-| [![TresJS v2 First steps with 3D on Vue](https://i.ytimg.com/vi/k2ntrRtR8wc/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAFz1U3xQ8HtQsda-zqMRhaqbOOsQ)](https://youtu.be/2Z3Z3YqQ5qo) | [`feat/tresJS-v2-first-steps-with-3D-on-vue`](https://github.com/alvarosabu/tresjs-basics/tree/feat/tresJS-v2-first-steps-with-3D-on-vue) |
-| [![TresJS v2 - Animate your 3D Objects with Vue](https://i.ytimg.com/vi/bDWdikyqfjk/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDrjizaX4e_1H_-bO_nqZeu_5zySw)](https://youtu.be/bDWdikyqfjk) | [`feat/tresJS-v2-animate-your-3d-objects-with-vue`](https://github.com/alvarosabu/tresjs-basics/tree/feat/tresJS-v2-animate-your-3d-objects-with-vue) |
-
+| [![TresJS First steps with 3D on Vue](/public/TresJS%20-%20First%20steps%20with%203D%20on%20Vue.png)](https://youtu.be/2Z3Z3YqQ5qo) | [`feat/first-steps`](https://github.com/alvarosabu/tresjs-basics/tree/feat/first-steps) |
+| [![TresJS - Animate your 3D Objects with Vue](/public/TresJS%20-%20Animate%20your%203D%20Objects.png)](https://youtu.be/bDWdikyqfjk) | [`feat/animate-objects`](https://github.com/alvarosabu/tresjs-basics/tree/feat/animate-objects) |
+| [![TresJS - Geometries with Vue](/public/TresJS%20-%20%20Geometries.png)](https://youtu.be/95OpiYAqkfY) | [`feat/geometries`](https://github.com/alvarosabu/tresjs-basics/tree/feat/geometries) |
+| [![TresJS Materials](/public/TresJS%20-%20%20Materials.png)](https://youtu.be/25xcycMVMBc) | [`feat/materials`](https://github.com/alvarosabu/tresjs-basics/tree/feat/materials) |
 
 ## How to run the code?
 
